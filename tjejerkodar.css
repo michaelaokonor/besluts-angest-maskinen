@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: lightpink;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  background-color: #a3f3eb;
+}
+
+.Image {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.inputSection {
+  margin: 40px 0px 40px 0px;
+  width: inherit;
+  paddin: 0;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: lightblue;
+  border-width: thick;
+  background-color: #fb929e;
+  border-radius: 25px;
+  padding: 10px;
+
+}
